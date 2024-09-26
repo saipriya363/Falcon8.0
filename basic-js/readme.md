@@ -83,3 +83,33 @@ let emp1 = {
 }
 
 - in the above example we can see that the left hand side elements are the keys & the right hand side element are values so we can tell that object is a key:value
+
+Function:-
+
+- in function , we repeatedlly do the task in function.
+- function reduce our code complexity and time & space complexity.
+- syntax ->
+// function 
+function my_schedule(){
+    console.log("we wake up at 6 am")
+    console.log("we go for a morning walk")
+    console.log("we go to our school for time pass")
+}
+//function calling
+my_schedule()
+
+operator in JS :-
+ 
+- Operator are the key features to do some task or operate some task.
+- ex. A + B
+- in the above ex. A,B are the operands & "+" is the operator.
+- there are 5 type of operator are present in javascript.
+
+1.Arithmetic Operator:- (+,-,*,/) %(modulus) , ** (exponentiation)
+2.Logical Operator:- logical AND (&&), logical OR (||)
+A B (A && B) T T T T F F F T F F F F
+
+A B (A || B) T T T T F T F T T F F F
+3.Assignment Operator:- (=,+=,-=,%=,**=)
+4.Unary Operator:- increment (++) , Decrement (--)
+5.Comparision Operator:- (==,!==,===,etc..)
