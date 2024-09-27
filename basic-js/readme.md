@@ -113,3 +113,46 @@ A B (A || B) T T T T F T F T T F F F
 3.Assignment Operator:- (=,+=,-=,%=,**=)
 4.Unary Operator:- increment (++) , Decrement (--)
 5.Comparision Operator:- (==,!==,===,etc..)
+
+Conditional statement:-
+
+- To implement some condition in the code.
+- there are 3 types of conditional statement are there 
+1. If condition :-
+
+- If condition is true then statement is true
+- syntax :-
+if (condition){
+    statement
+}
+
+2. If-else condition :-
+
+- if condition is true then statement is true otherwise false.
+- syntax :- 
+if(condition){
+    statement
+} else {
+    statement
+}
+
+3. if-elif condition :-
+
+- its check the condition multiple times, where the condition is true.
+- syntax :-
+if(condition){
+    statement
+} else if(condition){
+    statement
+} else {
+    statement
+}
+
+// pratice question:-
+
+- write a which can give grades to students according to their scores:-
+1. 80 - 100 (A)
+2. 70 - 79 (B)
+3. 60 - 69 (C)
+4. 50 - 59 (D)
+5. 0 - 49 (Fail- go to aganawadi)
