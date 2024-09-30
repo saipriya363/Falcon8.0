@@ -156,3 +156,66 @@ if(condition){
 3. 60 - 69 (C)
 4. 50 - 59 (D)
 5. 0 - 49 (Fail- go to aganawadi)
+
+Loops in javascript:-
+
+- loops are used to execute a piece of code again and again.
+- there are 5 types of loops present in javascript.
+
+1. For loop :-
+syntax->
+for (initialization ; condition; incre/decre){
+   statement
+}
+- example-> (we want to print web bocket 5 times)
+for (let i = 1; i <= 5;++){
+   console.log("web bocket")
+}
+
+for(let i= 1; i <=n5; i++){
+    console.log("web bocket)
+}
+2. while loop:-
+
+- syntax ->
+
+initialization
+while (condition){
+    statement
+    inc/dec
+}
+3. do-while loop:-
+
+- syntax ->
+do {
+    statement
+    inc/dec;
+} while(condition)
+4. for-of loop:- it iterate on string and array.
+5. for-in loop:- it iterate over the object.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
