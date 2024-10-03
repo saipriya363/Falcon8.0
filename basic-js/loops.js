@@ -30,12 +30,23 @@
 //     i++
 // } while (i <= 5)
 
-let str = "web"
-let size = 0;
-for (let i of str){
-    console.log("i = ",i);
-    size++;
+// let str = "web"
+// let size = 0;
+// for (let i of str){
+//     console.log("i = ",i);
+//     size++;
+// }
+// console.log("string size = ",size)
+
+let student = {
+    name : "saipriya",
+    age :"19",
+    CGPA : 7.9,
+    isPass : false
 }
-console.log("string size = ",size)
+
+for(let key in student){
+    console.log("key = ", key, "value = ",student[key])
+}
 
 
