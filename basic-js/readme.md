@@ -226,11 +226,37 @@ String method :-
 6. str.replace(searchVal, newVal)
 7. str.charAt(idx)
 
+Array on JS:-
 
+- array is a collection of item.
+- ex:
+let heros = ["iron man", "hulk", "super man", "spyder man"]
+- array index start from "0".
+- arr[0], arr[1].. etc...
 
+looping over an array:-
 
+- loop -> iterable
+- syntax ->
+for (let i = 0; < arr.length; i++){
+    statement
+}
 
+practice question:-
+1. for a given array with marks of students - [86,78,45,32,67]. find the average marks of the entire class.
+2. for a given array with prices of 5 items - [567,973,390,321,689].
+all items have an offer of 10% off of them. change the array to store final price after applying offer.
 
+array methods on Js:-
+
+1. push - add an element to the end.
+2. pop - delete from end.
+3. toString - convert array to string
+4. concat - join multiple array and return result. 
+5. unshift - add an element to the string.
+6. shift - delete from start.
+7. slice() - return a piece of the array.
+8. splice() - change original array (add, remove, replace)
 
 
 
